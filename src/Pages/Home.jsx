@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Navbar />
       <div style={{ position: 'relative', textAlign: 'left' }}>
-        <img src={home} alt="Home" style={{ width: '100%', height: 'auto' }} />
-        <div style={{ position: 'absolute', top: '50%', left: '10%', transform: 'translateY(-50%)', color: 'white', fontSize: '4em', width:'64%' }}>
+        <img src={home} alt="Home" style={{ width: '100%', height: 'auto', marginTop:'60px'}} />
+        <div style={{ position: 'absolute', top: '60%', left: '10%', transform: 'translateY(-50%)', color: 'white', fontSize: '2.5em', width:'64%' }}>
           <Typical
-            steps={['Welcome to Jee Path Finder!', 3000, 'Explore the world with us!', 3000, 'Talk with IITians for Guidance!', 5000]}
+            steps={['Welcome JEE Aspirants!', 3000, 'Explore the world with us!', 3000, 'Talk with IITians!', 5000]}
             loop={Infinity}
             wrapper="p"
           />

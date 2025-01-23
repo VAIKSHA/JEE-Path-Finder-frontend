@@ -3,3 +3,19 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.navbar-links{
+    justify-content: center;
+    margin: 30px;
+
+}
+.navbar-links .nav-link{
+    margin: 5px 150px;
+}
+
+.social-icons{
+    margin: 20px;
+}
+.social-icons a{
+    margin: 0 10px;
+}

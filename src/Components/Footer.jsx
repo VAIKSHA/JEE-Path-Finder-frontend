@@ -1,6 +1,7 @@
 import React from 'react';
 import '../LocalCSS/footer.css';
 import { Facebook, Twitter, Instagram, LinkedIn } from '@mui/icons-material';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
   return (
@@ -13,16 +14,16 @@ export default function Footer() {
         <a href="/contact" className="nav-link">Contact</a>
       </div>
       <div className="social-icons">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <Facebook style={{ color: 'white', margin: '0 10px' }} />
+        <a href="https://www.youtube.com/@vishal.sharma40/" target="_blank" rel="noopener noreferrer">
+          <YouTubeIcon style={{ color: 'white', margin: '0 10px' }} />
         </a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.twitter.com/@Vishal6143214" target="_blank" rel="noopener noreferrer">
           <Twitter style={{ color: 'white', margin: '0 10px' }} />
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/vishal.sharma40/" target="_blank" rel="noopener noreferrer">
           <Instagram style={{ color: 'white', margin: '0 10px' }} />
         </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/vishalsharma40/" target="_blank" rel="noopener noreferrer">
           <LinkedIn style={{ color: 'white', margin: '0 10px' }} />
         </a>
       </div>
