@@ -40,6 +40,8 @@ const Signup = () => {
 
   const headingStyle = {
     textAlign: 'center',
+    fontWeight: '900',
+    fontStyle: 'italic',
     margin: '20px'
   };
 

@@ -32,6 +32,8 @@ const Login = () => {
 
   const headingStyle = {
     textAlign: 'center',
+    fontWeight: '900',
+    fontStyle: 'italic',
     marginBottom: '20px'
   };
 
@@ -68,7 +70,7 @@ const Login = () => {
   };
 
   const buttonStyle = {
-    width: '100%', // Adjusted width to fit the button in a row
+    width: '200px', // Adjusted width to fit the button in a row
     padding: '10px',
     border: 'none',
     borderRadius: '5px',
@@ -85,14 +87,8 @@ const Login = () => {
 
   const mediaQueryStyle = `
     @media (max-width: 768px) {
-      .form-group {
-        flex-direction: column;
-      }
       .full-width {
         width: 80%;
-      }
-      .button-container {
-        flex-direction: column;
       }
       .button {
         width: 100%;

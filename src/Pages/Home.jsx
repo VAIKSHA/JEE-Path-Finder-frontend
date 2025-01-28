@@ -24,7 +24,6 @@ export default function Home() {
       <Card />
       <Card />
       <Card />
-      <Footer />
     </>
   );
 }
