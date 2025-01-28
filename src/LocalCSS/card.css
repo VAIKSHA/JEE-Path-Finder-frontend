@@ -1,10 +1,14 @@
 .card {
-    border-radius: 25px;
     overflow: hidden;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 1000px;
 }
 
+/* .custom-card {
+    border-radius: 200px; 
+} */
+
 .card-body {
-    min-height: 150px; /* Equalize card height */
+    min-height: 300px;
 }

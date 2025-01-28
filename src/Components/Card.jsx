@@ -3,13 +3,13 @@ import '../LocalCSS/card.css';
 
 export default function Card() {
     const cards = [
-        { title: "PHYSICS", points: ["First bullet point", "Second bullet point", "Third bullet point"] },
-        { title: "CHEMISTRY", points: ["First bullet point", "Second bullet point", "Third bullet point"] },
-        { title: "MATHS", points: ["First bullet point", "Second bullet point", "Third bullet point"] },
+        { title: "PHYSICS", points: ["First bullet point", "Second bullet point", "Third bullet point", "Fourth bullet point", "Fifth bullet point", "Sixth bullet point"] },
+        { title: "CHEMISTRY", points: ["First bullet point", "Second bullet point", "Third bullet point", "Fourth bullet point", "Fifth bullet point", "Sixth bullet point"] },
+        { title: "MATHS", points: ["First bullet point", "Second bullet point", "Third bullet point", "Fourth bullet point", "Fifth bullet point", "Sixth bullet point"] },
     ];
 
     return (
-        <div className="container mt-4 mb-4" style={{ maxWidth: '900px' }}>
+        <div className="container mt-4 mb-4">
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {cards.map((card, index) => (
                     <div key={index} className="col">

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "../Images/logo.jpg";
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
@@ -6,6 +7,7 @@ import '../LocalCSS/navbar.css';
 
 export default function Navbar() {
     const [anchorEl, setAnchorEl] = useState(null);
+    const navigate = useNavigate();
 
     const handleMenuClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -13,6 +15,16 @@ export default function Navbar() {
 
     const handleMenuClose = () => {
         setAnchorEl(null);
+    };
+
+    const handleLoginClick = () => {
+        handleMenuClose();
+        navigate('/login');
+    };
+
+    const handleSignupClick = () => {
+        handleMenuClose();
+        navigate('/signup');
     };
 
     return (
@@ -71,8 +83,8 @@ export default function Navbar() {
                     anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
                     transformOrigin={{ vertical: 'top', horizontal: 'right' }}
                 >
-                    <MenuItem onClick={handleMenuClose}>Login</MenuItem>
-                    <MenuItem onClick={handleMenuClose}>Signup</MenuItem>
+                    <MenuItem onClick={handleLoginClick}>Login</MenuItem>
+                    <MenuItem onClick={handleSignupClick}>Signup</MenuItem>
                 </Menu>
             </div>
         </nav>
