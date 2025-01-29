@@ -112,17 +112,17 @@ const Signup = () => {
         <div className="form-group" style={formGroupStyle}>
           <div className="half-width" style={halfWidthStyle}>
             <label style={labelStyle}>Name:</label>
-            <input type="text" name="name" value={formData.name} onChange={handleChange} required style={inputStyle} />
+            <input type="text" name="name" placeholder='Enter your name' value={formData.name} onChange={handleChange} required style={inputStyle} />
           </div>
           <div className="half-width" style={halfWidthStyle}>
             <label style={labelStyle}>Email:</label>
-            <input type="email" name="email" value={formData.email} onChange={handleChange} required style={inputStyle} />
+            <input type="email" name="email" placeholder='Enter your email' value={formData.email} onChange={handleChange} required style={inputStyle} />
           </div>
         </div>
         <div className="form-group" style={formGroupStyle}>
           <div className="half-width" style={halfWidthStyle}>
             <label style={labelStyle}>Contact Number:</label>
-            <input type="text" name="contactNumber" value={formData.contactNumber} onChange={handleChange} required style={inputStyle} />
+            <input type="text" name="contactNumber" placeholder='Enter your contact' value={formData.contactNumber} onChange={handleChange} required style={inputStyle} />
           </div>
           <div className="half-width" style={halfWidthStyle}>
             <label style={labelStyle}>Class:</label>
@@ -131,18 +131,18 @@ const Signup = () => {
               <option value="Class 11th">Class 11th</option>
               <option value="Class 12th">Class 12th</option>
               <option value="Dropper">Dropper</option>
-              <option value="Others">Others</option>
+              <option value="Others">Foundation</option>
             </select>
           </div>
         </div>
         <div className="form-group" style={formGroupStyle}>
           <div className="half-width" style={halfWidthStyle}>
             <label style={labelStyle}>Password:</label>
-            <input type="password" name="password" value={formData.password} onChange={handleChange} required style={inputStyle} />
+            <input type="password" name="password" placeholder='Enter your password' value={formData.password} onChange={handleChange} required style={inputStyle} />
           </div>
           <div className="half-width" style={halfWidthStyle}>
             <label style={labelStyle}>Confirm Password:</label>
-            <input type="password" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange} required style={inputStyle} />
+            <input type="password" name="confirmPassword" placeholder='Confirm your password' value={formData.confirmPassword} onChange={handleChange} required style={inputStyle} />
           </div>
         </div>
         <div className="button-container" style={buttonContainerStyle}>

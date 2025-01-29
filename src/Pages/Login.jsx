@@ -39,7 +39,7 @@ const Login = () => {
 
   const formGroupStyle = {
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     marginBottom: '15px',
     flexWrap: 'wrap'
   };
@@ -47,19 +47,22 @@ const Login = () => {
   const labelStyle = {
     display: 'block',
     marginBottom: '5px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    width: '80%' // Adjusted width for label
   };
 
   const inputStyle = {
-    width: '100%',
+    width: '80%', // Adjusted width for input
     padding: '8px',
     border: '1px solid #ccc',
     borderRadius: '5px'
   };
 
   const fullWidthStyle = {
-    width: '100%',
-    marginBottom: '15px'
+    width: '80%',
+    marginBottom: '15px',
+    display: 'flex',
+    alignItems: 'center' // Align items in the center
   };
 
   const buttonContainerStyle = {
@@ -88,7 +91,15 @@ const Login = () => {
   const mediaQueryStyle = `
     @media (max-width: 768px) {
       .full-width {
-        width: 80%;
+        flex-direction: column; // Stack label and input in column
+        align-items: flex-start; // Align items to the start
+      }
+      .full-width label {
+        width: 100%; // Full width for label
+        margin-bottom: 5px; // Margin bottom for spacing
+      }
+      .full-width input {
+        width: 100%; // Full width for input
       }
       .button {
         width: 100%;
@@ -104,13 +115,13 @@ const Login = () => {
         <div className="form-group" style={formGroupStyle}>
           <div className="full-width" style={fullWidthStyle}>
             <label style={labelStyle}>Email or Contact Number:</label>
-            <input type="text" name="emailOrContact" value={formData.emailOrContact} onChange={handleChange} required style={inputStyle} />
+            <input type="text" name="emailOrContact" placeholder='Registered Email or Contact' value={formData.emailOrContact} onChange={handleChange} required style={inputStyle} />
           </div>
         </div>
         <div className="form-group" style={formGroupStyle}>
           <div className="full-width" style={fullWidthStyle}>
             <label style={labelStyle}>Password:</label>
-            <input type="password" name="password" value={formData.password} onChange={handleChange} required style={inputStyle} />
+            <input type="password" name="password" placeholder='Enter your Password' value={formData.password} onChange={handleChange} required style={inputStyle} />
           </div>
         </div>
         <div className="button-container" style={buttonContainerStyle}>
