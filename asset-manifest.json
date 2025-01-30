@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JEE-Path-Finder-frontend/static/css/main.1553eef2.css",
-    "main.js": "/JEE-Path-Finder-frontend/static/js/main.85c99747.js",
-    "static/media/home.png": "/JEE-Path-Finder-frontend/static/media/home.339fe3449169a7131f4d.png",
-    "static/media/logo.png": "/JEE-Path-Finder-frontend/static/media/logo.fd4151ac509c4e2d1427.png",
-    "index.html": "/JEE-Path-Finder-frontend/index.html",
-    "main.1553eef2.css.map": "/JEE-Path-Finder-frontend/static/css/main.1553eef2.css.map",
-    "main.85c99747.js.map": "/JEE-Path-Finder-frontend/static/js/main.85c99747.js.map"
+    "main.css": "/JPF_frontend/static/css/main.1553eef2.css",
+    "main.js": "/JPF_frontend/static/js/main.d336c728.js",
+    "static/media/home.png": "/JPF_frontend/static/media/home.339fe3449169a7131f4d.png",
+    "static/media/logo.png": "/JPF_frontend/static/media/logo.fd4151ac509c4e2d1427.png",
+    "index.html": "/JPF_frontend/index.html",
+    "main.1553eef2.css.map": "/JPF_frontend/static/css/main.1553eef2.css.map",
+    "main.d336c728.js.map": "/JPF_frontend/static/js/main.d336c728.js.map"
   },
   "entrypoints": [
     "static/css/main.1553eef2.css",
-    "static/js/main.85c99747.js"
+    "static/js/main.d336c728.js"
   ]
 }
