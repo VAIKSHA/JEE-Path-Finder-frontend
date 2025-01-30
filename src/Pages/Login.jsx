@@ -22,7 +22,7 @@ const Login = () => {
 
   const containerStyle = {
     maxWidth: '800px',
-    margin: '140px auto', // Increased top margin
+    margin: '180px auto', // Increased top margin
     padding: '20px',
     border: '1px solid #ccc',
     borderRadius: '10px',

@@ -8,9 +8,9 @@ export default function Footer() {
     <footer className="bg-dark text-white py-4 text-center">
       <p>© 2025 JEE Path Finder. All rights reserved.</p>
       <div className="navbar-links">
-        <a href="/home" className="nav-link">Home</a>
+        <a href="/" className="nav-link">Home</a>
         <a href="/about" className="nav-link">About</a>
-        <a href="/services" className="nav-link">Services</a>
+        <a href="/book-slot" className="nav-link">Services</a>
         <a href="/contact" className="nav-link">Contact</a>
       </div>
       <div className="social-icons">
