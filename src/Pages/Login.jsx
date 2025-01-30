@@ -22,7 +22,7 @@ const Login = () => {
 
   const containerStyle = {
     maxWidth: '800px',
-    margin: '180px auto', // Increased top margin
+    margin: '180px auto',
     padding: '20px',
     border: '1px solid #ccc',
     borderRadius: '10px',
@@ -48,11 +48,11 @@ const Login = () => {
     display: 'block',
     marginBottom: '5px',
     fontWeight: 'bold',
-    width: '80%' // Adjusted width for label
+    width: '80%'
   };
 
   const inputStyle = {
-    width: '80%', // Adjusted width for input
+    width: '80%',
     padding: '8px',
     border: '1px solid #ccc',
     borderRadius: '5px'
@@ -62,18 +62,18 @@ const Login = () => {
     width: '80%',
     marginBottom: '15px',
     display: 'flex',
-    alignItems: 'center' // Align items in the center
+    alignItems: 'center'
   };
 
   const buttonContainerStyle = {
     display: 'flex',
-    justifyContent: 'center', // Center the submit button
+    justifyContent: 'center',
     marginTop: '20px',
     flexWrap: 'wrap'
   };
 
   const buttonStyle = {
-    width: '200px', // Adjusted width to fit the button in a row
+    width: '200px',
     padding: '10px',
     border: 'none',
     borderRadius: '5px',
@@ -104,6 +104,7 @@ const Login = () => {
       .button {
         width: 100%;
       }
+      
     }
   `;
 

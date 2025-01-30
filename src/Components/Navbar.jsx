@@ -36,8 +36,8 @@ export default function Navbar() {
                         alt="JEE Path Finder Logo"
                         style={{ height: "40px", marginRight: "10px" }}
                     />
-                    <span style={{ fontWeight: "bold", fontSize: "20px", cursor: "pointer" }}>
-                        JEE Path Finder
+                    <span style={{ fontWeight: "bold", fontSize: "25px", cursor: "pointer", fontStyle: "italic" }}>
+                        JEE PathFinder
                     </span>
                 </a>
 
