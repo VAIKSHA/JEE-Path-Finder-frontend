@@ -7,6 +7,7 @@ import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import Slotbook from './Pages/Slotbook';
 import Aboutus from './Pages/Aboutus';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path='/book-slot' element={<Slotbook />} />
           <Route path='/about' element={<Aboutus />} />
+          <Route path='/contact' element={<Contact/>} />
         </Routes>
         <Footer />
       </div>

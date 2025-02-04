@@ -22,7 +22,7 @@ const Login = () => {
 
   const containerStyle = {
     maxWidth: '800px',
-    margin: '180px auto',
+    margin: '180px auto 120px auto',
     padding: '20px',
     border: '1px solid #ccc',
     borderRadius: '10px',
@@ -111,7 +111,7 @@ const Login = () => {
   return (
     <div style={containerStyle}>
       <style>{mediaQueryStyle}</style>
-      <h2 style={headingStyle}>Login</h2>
+      <h1 style={headingStyle}>Log-in</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group" style={formGroupStyle}>
           <div className="full-width" style={fullWidthStyle}>

@@ -30,7 +30,7 @@ const Signup = () => {
 
   const containerStyle = {
     maxWidth: '800px',
-    margin: '140px auto', // Increased top margin
+    margin: '140px auto 50px auto',
     padding: '20px',
     border: '1px solid #ccc',
     borderRadius: '10px',
@@ -72,13 +72,13 @@ const Signup = () => {
 
   const buttonContainerStyle = {
     display: 'flex',
-    justifyContent: 'center', // Center the submit button
+    justifyContent: 'center', 
     marginTop: '20px',
     flexWrap: 'wrap'
   };
 
   const buttonStyle = {
-    width: '200px', // Adjusted width to fit the button in a row
+    width: '200px', 
     padding: '10px',
     border: 'none',
     borderRadius: '5px',
@@ -107,7 +107,7 @@ const Signup = () => {
   return (
     <div style={containerStyle}>
       <style>{mediaQueryStyle}</style>
-      <h2 style={headingStyle}>Signup</h2>
+      <h1 style={headingStyle}>Sign-up</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group" style={formGroupStyle}>
           <div className="half-width" style={halfWidthStyle}>

@@ -49,7 +49,7 @@ export default function Slotbook() {
   const styles = {
     container: {
       maxWidth: '600px',
-      margin: '150px auto',
+      margin: '150px auto 60px auto',
       padding: '20px',
       border: '1px solid #ccc',
       borderRadius: '10px',
@@ -60,7 +60,8 @@ export default function Slotbook() {
       flexDirection: 'column'
     },
     formGroup: {
-      marginBottom: '15px'
+      marginBottom: '15px',
+      fontWeight: 'bold',
     },
     note: {
       marginBottom: '15px',
